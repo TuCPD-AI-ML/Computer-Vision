@@ -1,0 +1,11 @@
+Chức năng của các file:
+- testYolov7: kiểm tra trọng số thu được sau khi train bằng mô hình Yolov7.
+- testYolov8: kiểm tra trọng số thu được sau khi train bằng mô hình Yolov7.
+- testCNN: Kiểm tra khả năng phân loại thời gian thực của model CNN
+- modelCNN: Xử lý dữ liệu và training phân loại ảnh bằng CNN
+- Classify_sign: Kết hợp hai mô hình Yolov8 và CNN để phát hiện và phân loại ký hiệu tay, sau đó ghép các ký tự và đưa lên ảnh trắng.
+- Các file.h5 là model được lưu từ những lần thử nghiệm mô hình CNN với các tập dữ liệu khác nhau.
+- File best.pt và lastv8.pt lần lượt là trọng số thu được của Yolov7 và Yolov8
+- get_data: Thu thập dữ liệu cho 3 mô hình
+- modelYolov7: sử dụng yolov7 để train
+- modelYolov8: sử dụng yolov8 để train
